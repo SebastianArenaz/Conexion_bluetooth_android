@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Conexion_bluetooth_android" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#0462CD</item>
-        <item name="colorPrimaryVariant">#0462CD</item>
+        <item name="colorPrimary">#000FA2</item>
+        <item name="colorPrimaryVariant">#000FA2</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

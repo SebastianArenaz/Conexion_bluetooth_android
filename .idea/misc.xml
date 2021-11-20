@@ -10,6 +10,8 @@
         <entry key="..\:/Users/JuanSebastianArenas/AndroidStudioProjects/Conexion_bluetooth_android/app/src/main/res/drawable/seekbar_boton.xml" value="0.2203125" />
         <entry key="..\:/Users/JuanSebastianArenas/AndroidStudioProjects/Conexion_bluetooth_android/app/src/main/res/drawable/seekbar_personalizada.xml" value="0.33" />
         <entry key="..\:/Users/JuanSebastianArenas/AndroidStudioProjects/Conexion_bluetooth_android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/JuanSebastianArenas/AndroidStudioProjects/Conexion_bluetooth_android/app/src/main/res/layout/item_device_name.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/JuanSebastianArenas/AndroidStudioProjects/Conexion_bluetooth_android/app/src/main/res/layout/listas_dispositivos.xml" value="0.25" />
       </map>
     </option>
   </component>

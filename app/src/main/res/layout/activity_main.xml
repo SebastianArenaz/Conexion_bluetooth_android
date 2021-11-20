@@ -11,7 +11,7 @@
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#0462CD"
+        android:background="#000FA2"
         android:elevation="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
         android:layout_marginTop="18dp"
+        app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
@@ -84,21 +86,42 @@
                 android:id="@+id/imagenbalde"
                 android:layout_width="250dp"
                 android:layout_height="300dp"
-                android:src="@drawable/sapooo" />
+                android:src="@drawable/balde" />
 
         </RelativeLayout>
 
-        <Button
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_margin="10dp"
-            android:text="Conectarse a bluetooth" />
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/btnActivarBluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#04910A"
+                android:textSize="12dp"
+                android:onClick="onClick"
+                android:text="Conectarse" />
+            <Button
+                android:id="@+id/btnListarDispositivos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_700"
+                android:textSize="12dp"
+                android:onClick="onClick"
+                android:text="Listar dispositivos" />
+
+
+        </LinearLayout>
+
 
         <LinearLayout
             android:id="@+id/linearLayout4"
             android:layout_width="384dp"
-            android:layout_height="582dp"
+            android:layout_height="592dp"
             android:layout_gravity="center_vertical"
             android:gravity="top"
             android:orientation="vertical"
@@ -132,7 +155,20 @@
                 android:text="0/100"
                 android:textColor="@color/black"
                 android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnEnviarDatos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="#D2070A"
+                android:onClick="onClick"
+                android:text="Enviar"
+                android:textSize="20dp" />
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
